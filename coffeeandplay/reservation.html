@@ -100,10 +100,28 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Reservation</h2>
+					<h2>Reserva</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
+							<p>En este apartado puedes reservar la estación que tu quieras con un máximo de 4 horas al dia, solo tienes que elegir tu fecha de asistencia y el tipo de estación que deseas reservar, el pago de la estación se hará en la propia cafeteria así como tu tarjeta de acceso para poder usarla. </p>
+						</div>
+					</div>
+					<h2>Tipos de estaciones</h2>
+					<div class="row">
+						<div class="col-md-6">
+							<p>En nuestro Cybercafé disponemos de dos tipos de estaciones de juego, un ordenador <em>Standard</em> y otro <em>Premium</em>, las diferencias entre ellos son su catalogo de juegos, su precio de alquiler y sus prestaciones de hardware.</p>
+						</div>
+					</div>
+					<h2>Standard</h2>
+					<div class="row">
+						<div class="col-md-6">
+							<p>Nuestros ordenadores de juegos gratis son una opción de experiencia de alto rendimiento para aquellas personas que no pueden tener el lujo de tener este tipo de equipos, así que por un precio competente con otras empresas de España que ofrencen el mismo servicio, puedes disfrutar de los juegos gratis que más gente esta jugando actualmente.</p>
+						</div>
+					</div>
+					<h2>Premium</h2>
+					<div class="row">
+						<div class="col-md-6">
+							<p>La opción Premium es un tipo de ordenador orientado a la experiencia inmersiva y de más alta calidad que una empresa de este tipo de servicio puede ofrecer, nuestro producto Premium es la experiencia definitiva del gaming, resolución y fluidez a nivel profesional para exprimir al máximo nuestro catalogo de juegos de pago. Los juegos del ordenador Premium son de un solo jugador y se tratan de aventures inmersivas con historias increïbles que te encantara descubrir.</p>
 						</div>
 					</div>
 				</div>
@@ -112,24 +130,33 @@
 					<form action="#" id="form-wrap">
 						<div class="row form-group">
 							<div class="col-md-12">
-								<label for="name">Your Name</label>
+								<label for="name">Nombre y Apellidos</label>
 								<input type="text" class="form-control" id="name">
 							</div>
 						</div>
 						<div class="row form-group">
 							<div class="col-md-12">
-								<label for="many">How Many People</label>
-								<select name="many" id="many" class="form-control custom_select">
-									<option value="#">1</option>
-									<option value="#">2</option>
-									<option value="#">3</option>
-									<option value="#">4+</option>
+								<label for="many">Tipo de estación</label>
+								<select name="many" id="type" class="form-control custom_select">
+									<option value="#">Standard</option>
+									<option value="#">Premium</option>
 								</select>
 							</div>
 						</div>
 						<div class="row form-group">
 							<div class="col-md-12">
-								<label for="taskdatetime">When</label>
+								<label for="many">Nº de Horas</label>
+								<select name="many" id="many" class="form-control custom_select">
+									<option value="#">1</option>
+									<option value="#">2</option>
+									<option value="#">3</option>
+									<option value="#">4</option>
+								</select>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="taskdatetime">Fecha</label>
 								<input type="text" name="task-datetime" id="taskdatetime" class="form-control"/>
 							</div>
 						</div>
@@ -151,10 +178,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 fh5co-heading animate-box">
-					<h2>Testimony</h2>
+					<h2>Testimonio</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis.</p>
+							<p>Uno de los únicos Cybercafés que hay en Barcelona el cúal te brinda una experiencia sin igual a la hora de jugar a videojuegos, gracias a sus estaciones de gama alta tienes una sensación de lo más inversiva cuando decides jugar a tus titulos favoritos.</p>
+							<p>En la cafeteria puedes conocer a personas que comparatan tus mismos gustos y pasar el rato conversndo y divirtiendote en compañia, sin lugar a duda una experiencia que no puedes dejar pasar.</p>
 						</div>
 					</div>
 				</div>
@@ -164,8 +192,8 @@
 				</div>
 				<div class="col-md-7 animate-box" data-animate-effect="fadeInRight">
 					<blockquote>
-						<p> &ldquo; Quantum ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam. &rdquo;</p>
-						<p class="author"><cite>&mdash; Jane Smith</cite></p>
+						<p> &ldquo; Este grupo de informaticos ha conseguido traer a una de las ciudades más influyentes tanto de España como de Europa, una tematica de ocio que se creia extinta en la época moderna, ahora es el momento de que los aficionados a los videojuegos y del mundo competitivo puedan tener un espacio para relacionarse y tener la oportunidad de presenciar los eventos que se vinen estos años. &rdquo;</p>
+						<p class="author"><cite>&mdash; -Faker</cite></p>
 					</blockquote>
 				</div>
 			</div>
@@ -179,9 +207,9 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Reserva tu estación ya!</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae enim quae vitae cupiditate, sequi quam ea id dolor reiciendis consectetur repudiandae. Rem quam, repellendus veniam ipsa fuga maxime odio? Eaque!</p>
-					<p><a href="reservation.html" class="btn btn-primary btn-outline">Reserva ya!</a></p>
+					<h2>Eventos</h2>
+					<p>Una o dos veces por semana nuestra cafeteria se realizará un evento dedicado a los videojuegos sea así como torneos o quedadas con los equipos profesionales de los E-Sports, duarante los eventos no se podrán alquilar las estaciones pero podrás pasarte para conocer a tus idolos del mundo del gaming.</p>
+					<p><a href="events.html" class="btn btn-primary btn-outline">Infórmate!</a></p>
 				</div>
 			</div>
 		</div>
@@ -192,7 +220,7 @@
 			<div class="row row-pb-md">
 				<div class="col-md-4 fh5co-widget">
 					<h4>Coffee &amp; Play</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<p>Todos los derechos quedan reservados bajo la marca Coffee &amp; Play, el uso de nuestra marca sin previo aviso y acceptación quedará en un delito.</p>
 				</div>
 				<div class="col-md-2 col-md-push-1 fh5co-widget">
 					<h4>Links</h4>
@@ -207,8 +235,8 @@
 				<div class="col-md-2 col-md-push-1 fh5co-widget">
 					<h4>Categorias</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Landing Page</a></li>
-						<li><a href="#">Real Estate</a></li>
+						<li><a href="#">Página principal</a></li>
+						<li><a href="#">Zona del local</a></li>
 						<li><a href="#">Personal</a></li>
 						<li><a href="#">Business</a></li>
 						<li><a href="#">e-Commerce</a></li>
@@ -218,7 +246,7 @@
 				<div class="col-md-4 col-md-push-1 fh5co-widget">
 					<h4>Información de contacto</h4>
 					<ul class="fh5co-footer-links">
-						<li>Carrer de l'Avenir, 67<br>Barcelona</li>
+						<li>Carrer de l'Avenir Nº 67, Saint Gervasi<br>Barcelona</li>
 						<li><a href="tel://1234567920">956 43 55 67</a></li>
 						<li><a href="mailto:info@yoursite.com">contact@coffeeandplay.com</a></li>
 					</ul>
