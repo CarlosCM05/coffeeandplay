@@ -518,6 +518,16 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
+#fh5co-menú {
+	.img-wrap {
+		img {
+			margin-bottom: 30px;
+			@media screen and (max-width: $screen-md ) {
+				max-width: 100%;
+			} 
+		}
+	}
+}
 
 
 #fh5co-featured-menu, #fh5co-gallery, #fh5co-reservation-form {
@@ -541,7 +551,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	.fh5co-item {
 		float: left;
 		width: 100%;
-		backround: $brand-white;
+		background: $brand-white;
 		&.margin_top {
 			margin-top: 150px; 
 			@media screen and (max-width: $screen-xs) {
@@ -750,6 +760,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-slider,
+#fh5co-menú,
 #fh5co-about,
 #fh5co-wireframe,
 #fh5co-started,
